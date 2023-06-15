@@ -1,9 +1,61 @@
 body {
+    background-color: black;
     height: 100vh;
+    margin: 0;
     display: flex;
+    justify-content: center;
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url(background-ferns-small.jpg);
 }
 
 .right {
+    flex: 2;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    border: 1px black dashed;
+}
+
+.call-to-action, .form-header, .card-container, button, .log-in {
+    margin-left: 5rem;
+    margin-right: 25rem;
+    margin-bottom: 2rem;
+    border: 1px black dashed;
+}
+
+.form-container {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.09);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+button {
+    border-radius: 12px;
+    color: white;
+    background-color: #596D48;
 }

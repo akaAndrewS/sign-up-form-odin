@@ -7,36 +7,54 @@
     <title>Sign-Up</title>
 </head>
 <body>
-    <div class="left">
-        <div class="image-container">
-            <img src="background-ferns-small.jpg" alt="ferns" class="background">
+    <div class="page-container">
+        <div class="sidebar">
+            <div>(Odin Logo) Odin</div>
+            <div>Photo Credit</div>
         </div>
-        <div>(Odin Logo) Odin</div>
-        <div>Photo Credit</div>
-    </div>
-    <div class="right">
-        <div>
-            <p>Some information</p>
-            <p>Call to action</p>
-        </div>
-        <form action="/some-webstie/" method="post">
-            <div>
-                <h2>Let's do this!</h2>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name">
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="pwd">PASSWORD</label>
-                <input type="password" id="password" name="password">
-                <label for="confirm-pass">CONFIRM PASSWORD</label>
-                <input type="pwd" id="confirm-pass" name="confirm-pass">
+        <div class="right">
+            <div class="call-to-action">
+                <h2>This is not a real online serivce! It is a real fake service, but it is not a real real service. Sign up <em>now</em> to get started!</h2>
+                <h2>You <em>know</em> you want to!</h2>
             </div>
-            <button>Create Account</button>
-        </form>
+            <form action="/some-webstie/" method="post">
+                <div class="form-container">
+                    <h2 class="form-header">Let's do this!</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="card">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="card">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="card">
+                            <label for="confirm-pass">CONFIRM PASSWORD</label>
+                            <input type="pwd" id="confirm-pass" name="confirm-pass">
+                        </div>
+                    </div>
+                </div>
+                <button>Create Account</button>
+                <div class="log-in">Already have an account? Log in</div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
