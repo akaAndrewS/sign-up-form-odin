@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
